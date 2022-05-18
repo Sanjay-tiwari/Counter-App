@@ -1,0 +1,127 @@
+.container {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  border: 1px solid rgb(241, 106, 82);
+  border-radius: 5px;
+  background-color: rgb(175, 82, 241);
+  width: 400px;
+  height: 200px;
+  
+}
+.input {
+  margin: 10px;
+}
+.input label {
+  color: aliceblue;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+}
+.input input {
+  outline: 0;
+  width: 80px;
+  height: 30px;
+  border: none;
+  font-family: "Josefin Sans", sans-serif;
+  border-radius: 3px;
+  background-color: rgb(184, 248, 226);
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.input input[type="number"]::-webkit-inner-spin-button,
+.input input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.start {
+  font-family: "Josefin Sans", sans-serif;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(49, 225, 122);
+  height: 40px;
+  width: 100px;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 18px;
+}
+.stop {
+  font-family: "Josefin Sans", sans-serif;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(54, 36, 190);
+  height: 40px;
+  width: 100px;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 18px;
+}
+.delete {
+  font-family: "Josefin Sans", sans-serif;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(201, 16, 16);
+  color: aliceblue;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.button {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.start:hover {
+  background-color: rgb(6, 134, 60);
+}
+.stop:hover {
+  background-color: rgb(30, 12, 165);
+}
+.delete:hover {
+  background-color: rgb(142, 3, 3);
+}
+.stop:disabled,
+button[disabled] {
+  background-color: rgb(211, 211, 211);
+  color: black;
+}
+.delete:disabled,
+button[disabled] {
+  background-color: rgb(211, 211, 211);
+  color: black;
+}
+
+@media (max-width: 470px) {
+  .wrapper {
+    width: 300px;
+  }
+  .start {
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  .stop {
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  .delete {
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  .button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

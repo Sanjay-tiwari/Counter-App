@@ -1,0 +1,22 @@
+.container {
+  border: 1px solid rgb(241, 106, 82);
+  border-radius: 6px;
+  min-width: 200px;
+  height: 200px;
+  line-height: 150px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(175, 82, 241);
+}
+.counter {
+  line-height: 1;
+  display: inline-block;
+  vertical-align: middle;
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  word-break: break-all;
+}

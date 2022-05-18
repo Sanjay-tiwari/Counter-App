@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Shadows+Into+Light&display=swap");
+
+body {
+  background: linear-gradient(65deg, rgb(185, 250, 227), rgb(184, 208, 220));
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app header {
+  background-color: rgb(241, 82, 217);
+  width: 100%;
+  margin: 6px;
+  text-align: center;
+  color: rgb(240, 255, 252);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 9px;
+}
